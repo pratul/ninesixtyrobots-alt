@@ -884,4 +884,6 @@ div.view div.views-admin-links {
 .vertical-tabs .selected a:hover {
   background: #fff;
 }
-
+#content-content {
+  font-size: 1.5em;
+}
