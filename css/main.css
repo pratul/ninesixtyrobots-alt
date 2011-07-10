@@ -299,7 +299,7 @@ LAYOUT
   text-align: left;
 }
 #header-main {
-  background: #B3BFBF url(../images/robots.png) no-repeat top right;
+  background: #B3BFBF;
   height: 166px;
   position: relative;
   top: 50px;
