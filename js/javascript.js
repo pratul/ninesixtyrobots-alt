@@ -1,7 +1,13 @@
+(function ($) {
+  $(document).ready(function () {
 
-// Prefill the search box with Search... text.
-$(document).ready(function(){
-  $('#search input:text').autofill({
-    value: "Search..."
+    $('#search input:text').autofill({
+      value: "Search..."
+    });
+    
+    $('.gallery').cycle({
+      fx: 'fade'
+    });
+	  
   });
-});
+})(jQuery);

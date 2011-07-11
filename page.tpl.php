@@ -2,8 +2,11 @@
     <div id="header-wrap">
       <div id="header" class="container_16">
         <div id="header-main">
-          <h1 id="logo-text"><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
-          <p id="slogan"><?php print $site_slogan; ?></p>
+        	<div class="gallery">
+          	<img src="<?php print base_path() . drupal_get_path('theme', 'ninesixtyrobots') ?>/images/slide1.jpg"/>
+        		<img src="<?php print base_path() . drupal_get_path('theme', 'ninesixtyrobots') ?>/images/slide2.jpg"/>
+        		<img src="<?php print base_path() . drupal_get_path('theme', 'ninesixtyrobots') ?>/images/slide3.jpg"/>
+          </div><!-- /gallery -->
         </div><!-- navigation -->
         <div id="nav">
           <?php print theme('links__system_main_menu', array(

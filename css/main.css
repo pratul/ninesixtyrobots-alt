@@ -7,7 +7,7 @@ body {
   color: #666666;
   margin: 0;
   padding: 0 0 50px 0;
-  background: #FBFAE8;
+  background: #FFFFCD;
   text-align: center;
 }
 /* Links */
@@ -283,7 +283,10 @@ LAYOUT
   padding-top: 5px;
   overflow: auto;
   text-align: left;
-  border-bottom: 4px solid #5C4B45;
+  border-bottom: 6px solid #5C4B45;
+  border-top: 1px solid #5C4B45;
+  border-left: 1px solid #5C4B45;
+  border-right: 1px solid #5C4B45;
 }
 #header-wrap {
   /*width: 100%;

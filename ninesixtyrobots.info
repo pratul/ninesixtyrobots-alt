@@ -21,6 +21,7 @@ regions[footer] = Footer bottom
 
 scripts[] = js/jquery.autofill.js
 scripts[] = js/javascript.js
+scripts[] = js/jquery.cycle.all.min.js
 
 ; Theme settings defaults.
 settings[breadcrumb_delimiter] = ' » '
